@@ -1,0 +1,20 @@
+parameters:
+
+
+services:
+
+    em:
+        class: Doctrine\ORM\EntityManager
+        factory: ['@doctrine', 'getManager']
+
+    resolver.base:
+        class: AppBundle\Resolver\AbstractResolver
+        abstract: true
+        calls:
+            - [ init, ['@em']]
+
+
+    resolver.todo:
+        class: AppBundle\Resolver\TodoResolver
+        parent: 'resolver.base'
+

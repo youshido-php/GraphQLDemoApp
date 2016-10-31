@@ -1,0 +1,2 @@
+graphql:
+    resource: "@GraphQLBundle/Controller/"

@@ -62,4 +62,4 @@ To run GraphiQL extension, just open `endpoint + /explorer` in your browser, for
 
 ## Configuration for React example Todo app
 If you have installed [React Example TODO](http://todomvc.com/examples/react) application and want to use our endpoint, you need to change endpoint in `server.js` on line 10:
-![](http://take.ms/KcUrw)
+![Example](https://s13.postimg.org/t98deyd87/server_js_todomvc_projects_test_react_tod.png)
